@@ -1,0 +1,65 @@
+sys-libs/libomp ompt
+dev-util/perf -clang
+net-libs/libtorrent-rasterbar python
+net-p2p/deluge geoip webinterface
+dev-lang/php ffi gd fpm cjk cgi exif jit ipv6 acl sqlite pdo xmlwriter xmlreader apache2
+media-video/ffmpeg jpeg2k librtmp libxml2 lzma mp3 network openssl opus postproc rav1e threads vorbis vpx webp x264 x265 fdk
+sys-fs/zfs kernel-builtin
+media-plugins/alsa-plugins pulseaudio
+net-dns/bind-tools gssapi
+sys-apps/proot care
+app-emulation/vmware-workstation macos-guests modules vix systemd ovftool
+dev-ml/stdlib-shims ocamlopt
+sys-devel/clang default-compiler-rt default-lld llvm-libunwind xml
+sys-devel/llvm xml gold
+net-p2p/qbittorrent -X -dbus webui
+dev-db/postgresql xml uuid llvm icu
+net-misc/freerdp X gstreamer jpeg openh264
+net-firewall/iptables conntrack netlink
+sys-boot/grub:2 device-mapper mount -truetype -fonts -themes
+app-containers/docker overlay pkcs11 -device-mapper
+net-dns/dnsmasq auth-dns dnssec script
+net-dns/getdns libuv stubby
+net-firewall/ipset -modules
+net-firewall/iptables conntrack netlink
+dev-lang/python sqlite
+app-emulation/qemu vhost-user-fs lzo vnc numa spice jemalloc usb virtfs pulseaudio gnutls io-uring -alsa -oss -sdl
+app-emulation/libvirt sasl virt-network numa zfs
+dev-libs/libxml2 python
+net-p2p/amule -X daemon remote geoip upnp
+www-servers/nginx aio threads pcre-jit nginx_modules_http_geoip2 nginx_modules_stream_realip nginx_modules_stream_return  nginx_modules_stream_limit_conn nginx_modules_http_realip nginx_modules_http_brotli
+sys-fs/squashfs-tools lz4 lzma lzo
+app-emulation/libguestfs libvirt
+x11-libs/cairo X
+media-libs/libpng apng
+www-client/firefox lto geckodriver
+media-libs/mesa llvm
+dev-lang/rust-bin cargo
+#sys-apps/systemd cgroup-hybrid
+sys-apps/systemd nat elfutils policykit
+sys-devel/gcc lto
+media-libs/libvpx postproc
+sys-firmware/intel-microcode initramfs split-ucode
+sys-kernel/linux-firmware initramfs
+sys-apps/util-linux caps
+net-misc/tigervnc dir3 server xinerama
+app-arch/unzip natspec
+x11-wm/lumina desktop-utils
+app-emulation/virt-manager gtk
+lxqt-base/lxqt-panel sysstat statusnotifier cpuload
+app-emulation/virtualbox alsa pulseaudio vboxwebsrv vnc java python
+kde-plasma/plasma-meta pulseaudio gtk
+kde-*/* X
+dev-qt/* X
+kde-apps/kate plasma
+net-fs/samba ads ldap winbind addc addns json python zeroconf
+net-dns/bind dlz gssapi ldap json python lmdb geoip2 dnsrps
+net-dns/avahi python
+www-servers/apache threads apache2_modules_brotli apache2_modules_http2 apache2_modules_proxy apache2_modules_proxy_http2 apache2_modules_proxy_connect apache2_modules_remoteip
+kde-apps/gwenview kipi fits activities semantic-desktop raw
+media-video/vlc xml zvbi run-as-root qt5
+net-fs/nfs-utils nfsv41 junction
+sys-libs/compiler-rt-sanitizers -ubsan
+net-misc/aria2 bittorrent adns jemalloc metalink sqlite xmlrpc libuv
+media-fonts/noto cjk
+media-libs/libpulse X

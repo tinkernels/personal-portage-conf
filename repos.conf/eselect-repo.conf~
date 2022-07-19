@@ -1,0 +1,7 @@
+# created by eselect-repo
+
+
+[farmboy0]
+location = /var/db/repos/farmboy0
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/farmboy0.git

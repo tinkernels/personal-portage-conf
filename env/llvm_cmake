@@ -1,0 +1,5 @@
+#SET (LLVM_ENABLE_LIBCXX ON CACHE BOOL "Use libc++ if available." FORCE)
+
+SET (CLANG_DEFAULT_UNWINDLIB "libunwind" CACHE STRING "Default unwind library to use (none libgcc or libunwind, empty to match runtime library)." FORCE)
+SET (CLANG_DEFAULT_LINKER "lld" CACHE STRING "Default linker to use (linker name or absolute path, empty for platform default)." FORCE)
+SET (CLANG_DEFAULT_RTLIB "compiler-rt" CACHE STRING "Default runtime library to use (libgcc or compiler-rt, empty for platform default)." FORCE)

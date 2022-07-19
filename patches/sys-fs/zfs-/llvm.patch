@@ -1,0 +1,11 @@
+--- zfs-2.1.4/config/kernel.m4.orig	2022-05-13 05:33:34.483676225 +0800
++++ zfs-2.1.4/config/kernel.m4	2022-05-13 05:34:43.577195628 +0800
+@@ -654,7 +654,7 @@
+ 		build kernel modules with LLVM/CLANG toolchain])
+ 	AC_TRY_COMMAND([
+ 	    KBUILD_MODPOST_NOFINAL="$5" KBUILD_MODPOST_WARN="$6"
+-	    make modules -k -j$TEST_JOBS ${KERNEL_CC:+CC=$KERNEL_CC} ${KERNEL_LD:+LD=$KERNEL_LD} ${KERNEL_LLVM:+LLVM=$KERNEL_LLVM} -C $LINUX_OBJ $ARCH_UM
++	    make LLVM=1 LLVM_IAS=1 CC=clang modules -k -j$TEST_JOBS ${KERNEL_CC:+CC=$KERNEL_CC} ${KERNEL_LD:+LD=$KERNEL_LD} ${KERNEL_LLVM:+LLVM=$KERNEL_LLVM} -C $LINUX_OBJ $ARCH_UM
+ 	    M=$PWD/$1 >$1/build.log 2>&1])
+ 	AS_IF([AC_TRY_COMMAND([$2])], [$3], [$4])
+ ])

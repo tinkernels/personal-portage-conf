@@ -1,0 +1,16 @@
+CC="gcc"
+OBJC="gcc"
+CXX="g++"
+AR="gcc-ar"
+NM="gcc-nm"
+RANLIB="gcc-ranlib"
+
+COMMON_FLAGS="${CFLAGS_PRE} -march=native -O2 -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+
+LDFLAGS="${LDFLAGS_PRE}"
+
+CMAKE_EXTRA_CACHE_FILE="/etc/portage/env/llvm_cmake"

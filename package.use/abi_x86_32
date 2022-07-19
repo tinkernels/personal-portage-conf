@@ -1,0 +1,32 @@
+sys-libs/binutils-libs abi_x86_32
+sys-devel/clang abi_x86_32
+sys-devel/clang-runtime abi_x86_32
+sys-devel/llvm abi_x86_32
+sys-libs/llvm-libunwind abi_x86_32
+sys-libs/libomp abi_x86_32
+sys-libs/libcxx abi_x86_32
+sys-libs/libcxxabi abi_x86_32
+sys-libs/compiler-rt abi_x86_32
+
+# dependencies with abi_x86_32 use
+sys-libs/zlib abi_x86_32
+sys-libs/libunwind abi_x86_32
+app-arch/bzip2 abi_x86_32
+dev-libs/elfutils abi_x86_32
+sys-libs/gpm abi_x86_32
+dev-libs/gmp abi_x86_32
+dev-libs/libxml2 abi_x86_32
+dev-libs/libffi abi_x86_32
+sys-libs/libxcrypt abi_x86_32
+sci-mathematics/z3 abi_x86_32
+virtual/libcrypt abi_x86_32
+sys-libs/compiler-rt-sanitizers abi_x86_32
+app-arch/xz-utils abi_x86_32
+app-arch/zstd abi_x86_32
+virtual/libelf abi_x86_32
+sys-libs/ncurses abi_x86_32
+dev-libs/libedit abi_x86_32
+dev-libs/libatomic_ops abi_x86_32
+dev-libs/icu abi_x86_32
+
+*/* -abi_x86_32

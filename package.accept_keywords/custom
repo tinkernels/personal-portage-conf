@@ -1,0 +1,82 @@
+dev-util/bpftool ~*
+dev-java/swt ~*
+sys-apps/proot ~*
+net-dns/knot ~*
+
+# required by shadowsocks-libev
+net-proxy/shadowsocks-libev ~*
+net-libs/libcork ~*
+net-libs/libcorkipset ~*
+net-libs/libbloom ~*
+
+dev-util/systemtap ~*
+
+# firefox most recent build
+dev-libs/nss ~*
+dev-util/cbindgen ~*
+dev-libs/nspr ~*
+dev-python/pip ~*
+dev-python/certifi ~*
+www-client/firefox ~*
+www-client/firefox-bin ~*
+
+x11-misc/xvfb-run ~*
+
+sys-fs/squashfs-tools ~*
+
+app-emulation/snapd ~*
+
+# xrdp
+net-misc/xrdp ~*
+net-misc/xorgxrdp ~*
+
+# vritualbox
+app-emulation/virtualbox ~*
+app-emulation/virtualbox-additions ~*
+app-emulation/virtualbox-extpack-oracle ~*
+app-emulation/virtualbox-modules ~*
+
+sys-fs/dmg2img ~*
+
+dev-util/android-sdk-update-manager ~*
+
+net-misc/baidunetdisk ~*
+
+media-libs/libvpx ~*
+
+sys-libs/libhugetlbfs ~*
+
+app-emulation/genymotion-bin ~*
+
+media-libs/harfbuzz ~*
+
+net-vpn/i2p ~*
+
+net-libs/nativebiginteger ~*
+
+sci-libs/ta-lib ~*
+
+net-p2p/go-ipfs ~*
+
+# bpf
+app-crypt/swtpm ~*
+dev-libs/libtpms ~*
+dev-util/bcc ~*
+dev-libs/libbpf ~*
+
+net-misc/youtube-dl **
+
+# certbot dns plugin
+app-crypt/certbot-dns-nsone ~*
+dev-python/dns-lexicon ~*
+app-crypt/certbot-dns-cloudflare ~*
+dev-python/cloudflare ~*
+dev-python/jsonlines ~*
+
+# libguestfs
+app-emulation/libguestfs ~*
+app-forensics/yara ~*
+app-misc/hivex ~*
+app-emulation/libguestfs-appliance ~*
+
+dev-python/sphinx ~*
