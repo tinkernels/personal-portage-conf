@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -x
+
+# layman -S && \
+emaint sync -a && \
+emerge -uvDNU @world && \
+emerge @live-rebuild && \
+emerge @preserved-rebuild && \
+revdep-rebuild
+# eix-update
+# perl-cleaner --all
+# cpanm --self-upgrade
+# cpan-outdated -p | cpanm
+# perl-cleaner --all
+# revdep-rebuild
+systemctl daemon-reload
+emerge -pc
+echo "** FINISHED **"
