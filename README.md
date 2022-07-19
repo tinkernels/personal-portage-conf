@@ -1,2 +1,3 @@
 # personal-portage-conf
-Configuration files for gentoo portage.
+
+**Check branches other than master.**
