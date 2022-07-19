@@ -80,3 +80,6 @@ app-misc/hivex ~*
 app-emulation/libguestfs-appliance ~*
 
 dev-python/sphinx ~*
+
+sys-apps/portage ~*
+
