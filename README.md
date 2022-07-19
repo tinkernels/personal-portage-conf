@@ -1,2 +1,2 @@
 # personal-portage-conf
-Configuration files for gentoo portage
+Configuration files for gentoo portage.
