@@ -1,23 +1,23 @@
->=sys-devel/lld-14
->=sys-libs/compiler-rt-14
->=sys-libs/compiler-rt-sanitizers-14
->=sys-libs/llvm-libunwind-14
->=sys-devel/llvm-common-14
->=sys-devel/clang-common-14
->=sys-devel/clang-runtime-14
->=sys-devel/llvmgold-14
->=sys-devel/llvm-14
->=sys-devel/clang-14
->=sys-libs/libcxx-14
->=sys-libs/libcxxabi-14
->=sys-libs/libomp-14
->=dev-util/lldb-14
+# >=sys-devel/lld-14
+# >=sys-libs/compiler-rt-14
+# >=sys-libs/compiler-rt-sanitizers-14
+# >=sys-libs/llvm-libunwind-14
+# >=sys-devel/llvm-common-14
+# >=sys-devel/clang-common-14
+# >=sys-devel/clang-runtime-14
+# >=sys-devel/llvmgold-14
+# >=sys-devel/llvm-14
+# >=sys-devel/clang-14
+# >=sys-libs/libcxx-14
+# >=sys-libs/libcxxabi-14
+# >=sys-libs/libomp-14
+# >=dev-util/lldb-14
 
->=sys-kernel/linux-headers-5.16
+# >=sys-kernel/linux-headers-5.16
 
->=sys-fs/zfs-2.1.5
+# >=sys-fs/zfs-2.1.5
 
->app-emulation/qemu-7.0.0-r1
+# >app-emulation/qemu-7.0.0-r1
 
-# sphinx dependency conflict
-=dev-python/docutils-0.18.1
+#  sphinx dependency conflict
+# =dev-python/docutils-0.18.1
