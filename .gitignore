@@ -1,16 +1,19 @@
 make.profile
-custom.conf
 savedconfig/
+custom.make.env
+custom.make.conf
 
 profile/*
 !profile/package.use.mask
+!profile/package.mask.example
+!profile/package.provided.example
 
 repos.conf/*
 !repos.conf/gentoo.conf
 
 package.mask/*
 
-package.accept_keywords/**
+package.accept_keywords/*
 !package.accept_keywords/custom
 
 package.use/*
