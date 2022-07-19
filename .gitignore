@@ -2,17 +2,17 @@ make.profile
 custom.conf
 savedconfig/
 
-profile/
+profile/**
 !profile/package.use.mask
 
-repos.conf/
+repos.conf/**
 !repos.conf/gentoo.conf
 
-package.mask/
+package.mask/**
 
-package.accept_keywords/
+package.accept_keywords/**
 !package.accept_keywords/custom
 
-package.use/
+package.use/**
 !package.use/custom
 !package.use/abi_x86_32
