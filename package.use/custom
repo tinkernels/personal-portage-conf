@@ -16,7 +16,7 @@ net-p2p/qbittorrent -X -dbus webui
 dev-db/postgresql xml uuid llvm icu
 net-misc/freerdp X gstreamer jpeg openh264
 net-firewall/iptables conntrack netlink
-sys-boot/grub:2 device-mapper mount -truetype -fonts -themes
+sys-boot/grub:2 device-mapper mount grub_platforms_efi-64 grub_platforms_pc -truetype -fonts -themes
 app-containers/docker overlay pkcs11 -device-mapper
 net-dns/dnsmasq auth-dns dnssec script
 net-dns/getdns libuv stubby
