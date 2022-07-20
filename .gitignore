@@ -1,21 +1,29 @@
-make.profile
-savedconfig/
-custom.make.env
-custom.make.conf
+*
+**/*
 
-profile/*
+!repos.conf/gentoo.conf
+
 !profile/package.use.mask
 !profile/package.mask.example
 !profile/package.provided.example
 
-repos.conf/*
-!repos.conf/gentoo.conf
-
-package.mask/*
-
-package.accept_keywords/*
 !package.accept_keywords/custom
 
-package.use/*
 !package.use/custom
 !package.use/abi_x86_32
+
+!env/*
+
+!package.env
+
+!helper/*
+!helper/**/*
+
+!postsync.d/eix
+
+!patches/sys-fs/zfs-kmod/llvm.patch
+
+!cc-switch.sh
+
+!make.conf
+!make.conf.gcc
