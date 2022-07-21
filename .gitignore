@@ -1,5 +1,5 @@
 *
-**/*
+**
 
 !repos.conf/gentoo.conf
 
@@ -17,7 +17,7 @@
 !package.env
 
 !helper/*
-!helper/**/*
+!helper/**
 
 !postsync.d/eix
 
