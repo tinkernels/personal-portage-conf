@@ -2,7 +2,7 @@ sys-libs/libomp ompt
 dev-util/perf -clang
 net-libs/libtorrent-rasterbar python
 net-p2p/deluge geoip webinterface
-dev-lang/php ffi gd fpm cjk cgi exif jit ipv6 acl sqlite pdo xmlwriter xmlreader apache2
+dev-lang/php ffi gd fpm cjk cgi exif jit ipv6 acl sqlite pdo xmlwriter xmlreader apache2 curl
 media-video/ffmpeg jpeg2k librtmp libxml2 lzma mp3 network openssl opus postproc rav1e threads vorbis vpx webp x264 x265 fdk
 sys-fs/zfs kernel-builtin
 media-plugins/alsa-plugins pulseaudio
@@ -61,4 +61,5 @@ net-fs/nfs-utils nfsv41 junction
 sys-libs/compiler-rt-sanitizers -ubsan
 net-misc/aria2 bittorrent adns jemalloc metalink sqlite xmlrpc libuv
 media-fonts/noto cjk
-
+net-libs/gnutls tools pkcs11
+dev-libs/boost python
