@@ -65,3 +65,4 @@ media-fonts/noto cjk
 media-libs/libpulse X
 net-libs/gnutls tools pkcs11
 dev-libs/boost python
+net-dns/knot idn geoip doh caps
