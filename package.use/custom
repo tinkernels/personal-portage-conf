@@ -63,3 +63,4 @@ net-misc/aria2 bittorrent adns jemalloc metalink sqlite xmlrpc libuv
 media-fonts/noto cjk
 net-libs/gnutls tools pkcs11
 dev-libs/boost python
+net-dns/knot idn geoip doh caps
