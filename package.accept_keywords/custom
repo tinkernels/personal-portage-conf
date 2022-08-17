@@ -1,3 +1,4 @@
+net-libs/quiche ~*
 dev-util/bpftool ~*
 dev-java/swt ~*
 sys-apps/proot ~*
@@ -82,3 +83,4 @@ app-emulation/libguestfs-appliance ~*
 dev-python/sphinx ~*
 
 net-analyzer/speedtest++ ~*
+
