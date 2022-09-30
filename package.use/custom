@@ -10,8 +10,8 @@ net-dns/bind-tools gssapi
 sys-apps/proot care
 app-emulation/vmware-workstation macos-guests modules vix systemd ovftool
 dev-ml/stdlib-shims ocamlopt
-sys-devel/clang default-compiler-rt default-lld llvm-libunwind xml
-sys-devel/llvm xml gold
+# sys-devel/clang default-compiler-rt default-lld llvm-libunwind xml
+# sys-devel/llvm xml gold
 net-p2p/qbittorrent -X -dbus webui
 dev-db/postgresql xml uuid llvm icu
 net-misc/freerdp X gstreamer jpeg openh264
