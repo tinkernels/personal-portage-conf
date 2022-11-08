@@ -35,7 +35,7 @@ media-libs/libpng apng
 www-client/firefox lto geckodriver
 dev-lang/rust-bin cargo
 #sys-apps/systemd cgroup-hybrid
-sys-apps/systemd nat elfutils policykit
+sys-apps/systemd nat elfutils policykit gnuefi
 #sys-devel/gcc lto
 media-libs/libvpx postproc
 sys-firmware/intel-microcode initramfs split-ucode
