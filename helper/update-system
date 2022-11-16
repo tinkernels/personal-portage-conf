@@ -4,6 +4,7 @@ set -x
 
 # layman -S && \
 emaint sync -a && \
+emerge -1 --noreplace sys-apps/portage ;\
 emerge -uvDNU @world && \
 emerge @live-rebuild && \
 emerge @preserved-rebuild && \
