@@ -1,10 +1,12 @@
+sys-devel/clang-common default-compiler-rt default-lld 
+sys-libs/llvm-libunwind static-libs
 sys-libs/libomp ompt
 dev-util/perf -clang
 net-libs/libtorrent-rasterbar python
 net-p2p/deluge geoip webinterface
 dev-lang/php ffi gd fpm cjk cgi exif jit ipv6 acl sqlite pdo xmlwriter xmlreader apache2 curl
 media-video/ffmpeg jpeg2k librtmp libxml2 lzma mp3 network openssl opus postproc rav1e threads vorbis vpx webp x264 x265 fdk
-sys-fs/zfs kernel-builtin
+# sys-fs/zfs kernel-builtin
 media-plugins/alsa-plugins pulseaudio
 net-dns/bind-tools gssapi
 sys-apps/proot care
@@ -55,7 +57,7 @@ kde-apps/kate plasma
 net-fs/samba ads ldap winbind addc addns json python zeroconf
 net-dns/bind dlz gssapi ldap json python lmdb geoip2 dnsrps
 net-dns/avahi python
-www-servers/apache threads apache2_modules_brotli apache2_modules_http2 apache2_modules_proxy apache2_modules_proxy_http2 apache2_modules_proxy_connect apache2_modules_remoteip
+www-servers/apache -threads apache2_modules_brotli apache2_modules_http2 apache2_modules_proxy apache2_modules_proxy_http2 apache2_modules_proxy_connect apache2_modules_remoteip
 kde-apps/gwenview kipi fits activities semantic-desktop raw
 media-video/vlc xml zvbi run-as-root qt5
 net-fs/nfs-utils nfsv41 junction

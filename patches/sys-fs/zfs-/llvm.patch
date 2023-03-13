@@ -1,0 +1,20 @@
+--- zfs-2.1.5/config/kernel.m4.orig	2022-09-05 16:46:37.683688141 +0800
++++ zfs-2.1.5/config/kernel.m4	2022-09-05 16:47:55.847245781 +0800
+@@ -581,7 +581,7 @@
+ # Example command line to manually build source
+ # make modules -C $LINUX_OBJ $ARCH_UM M=$PWD/build/$1
+ 
+-ccflags-y := -Werror $FRAME_LARGER_THAN
++ccflags-y := -Werror -Wno-address-of-packed-member $FRAME_LARGER_THAN
+ _ACEOF
+ 
+ 	dnl # Additional custom CFLAGS as requested.
+@@ -645,7 +645,7 @@
+ 		build kernel modules with LLVM/CLANG toolchain])
+ 	AC_TRY_COMMAND([
+ 	    KBUILD_MODPOST_NOFINAL="$5" KBUILD_MODPOST_WARN="$6"
+-	    make modules -k -j$TEST_JOBS ${KERNEL_CC:+CC=$KERNEL_CC}
++	    make LLVM=1 LLVM_IAS=1 CC=clang modules -k -j$TEST_JOBS ${KERNEL_CC:+CC=$KERNEL_CC}
+ 	    ${KERNEL_LD:+LD=$KERNEL_LD} ${KERNEL_LLVM:+LLVM=$KERNEL_LLVM}
+ 	    CONFIG_MODULES=y CFLAGS_MODULE=-DCONFIG_MODULES
+ 	    -C $LINUX_OBJ $ARCH_UM M=$PWD/$1 >$1/build.log 2>&1])

@@ -1,5 +1,4 @@
-*
-**
+/*
 
 !repos.conf/gentoo.conf
 
@@ -12,16 +11,15 @@
 !package.use/custom
 !package.use/abi_x86_32
 
-!env/*
+!env/
 
 !package.env
 
-!helper/*
-!helper/**
+!helper/
 
 !postsync.d/eix
 
-!patches/sys-fs/zfs-kmod/llvm.patch
+!patches/
 
 !cc-switch.sh
 
