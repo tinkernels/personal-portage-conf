@@ -67,11 +67,14 @@ dev-libs/libbpf ~*
 net-misc/youtube-dl **
 
 # certbot dns plugin
+app-crypt/certbot-nginx ~*
 app-crypt/certbot-dns-nsone ~*
 dev-python/dns-lexicon ~*
 app-crypt/certbot-dns-cloudflare ~*
+app-crypt/certbot ~*
 dev-python/cloudflare ~*
 dev-python/jsonlines ~*
+app-crypt/acme ~*
 
 # libguestfs
 app-emulation/libguestfs ~*
