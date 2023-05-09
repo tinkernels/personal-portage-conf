@@ -1,3 +1,4 @@
+sys-apps/dbus-broker launcher
 sys-libs/libomp ompt
 dev-util/perf -clang
 net-libs/libtorrent-rasterbar python

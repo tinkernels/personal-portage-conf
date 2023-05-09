@@ -2,8 +2,10 @@
 
 set -x
 
-# layman -S && \
-emaint sync -a && \
+if [ "$1" != "-r" ];then
+  # layman -S && \
+  emaint sync -a
+fi
 emerge -1 --noreplace sys-apps/portage ;\
 emerge -uvDNU @world && \
 emerge @live-rebuild && \
@@ -18,3 +20,4 @@ revdep-rebuild
 systemctl daemon-reload
 emerge -pc
 echo "** FINISHED **"
+
