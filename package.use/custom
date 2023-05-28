@@ -69,3 +69,4 @@ media-libs/libpulse X
 net-libs/gnutls tools pkcs11
 dev-libs/boost python
 net-dns/knot idn geoip doh caps
+sys-fs/lvm2 lvm thin
