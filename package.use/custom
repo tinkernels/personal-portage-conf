@@ -58,7 +58,7 @@ kde-apps/kate plasma
 net-fs/samba ads ldap winbind addc addns json python zeroconf
 net-dns/bind dlz gssapi ldap json python lmdb geoip2 dnsrps
 net-dns/avahi python
-www-servers/apache -threads apache2_modules_brotli apache2_modules_http2 apache2_modules_proxy apache2_modules_proxy_http2 apache2_modules_proxy_connect apache2_modules_remoteip
+www-servers/apache -threads apache2_modules_brotli apache2_modules_http2 apache2_modules_proxy apache2_modules_proxy_http2 apache2_modules_proxy_connect apache2_modules_remoteip apache2_modules_proxy_scgi
 kde-apps/gwenview kipi fits activities semantic-desktop raw
 media-video/vlc xml zvbi run-as-root qt5
 net-fs/nfs-utils nfsv41 junction

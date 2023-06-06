@@ -85,3 +85,4 @@ dev-python/sphinx ~*
 net-analyzer/speedtest++ ~*
 
 net-vpn/tinc ~*
+www-apps/jellyfin ~*
