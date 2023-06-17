@@ -12,10 +12,6 @@
 !package.use/custom
 !package.use/abi_x86_32
 
-!env/*
-
-!package.env
-
 !helper/*
 !helper/**
 
