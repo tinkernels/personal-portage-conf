@@ -1,3 +1,4 @@
+dev-util/ccache redis
 sys-apps/dbus-broker launcher
 sys-libs/libomp ompt
 dev-util/perf -clang
