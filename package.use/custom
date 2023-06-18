@@ -1,3 +1,4 @@
+dev-util/ccache redis
 sys-apps/dbus-broker launcher
 sys-devel/clang-common default-compiler-rt default-lld 
 sys-libs/llvm-libunwind static-libs
