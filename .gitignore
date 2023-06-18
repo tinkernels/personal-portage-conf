@@ -23,3 +23,5 @@
 
 !make.conf
 !make.conf.gcc
+
+!make.profile
