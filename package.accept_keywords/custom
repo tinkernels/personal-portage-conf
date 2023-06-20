@@ -87,3 +87,5 @@ dev-python/sphinx ~*
 sys-apps/portage ~*
 
 net-analyzer/speedtest++ ~*
+
+net-vpn/tinc ~*
