@@ -89,3 +89,6 @@ sys-apps/portage ~*
 net-analyzer/speedtest++ ~*
 
 net-vpn/tinc ~*
+
+net-vpn/tailscale ~*
+
