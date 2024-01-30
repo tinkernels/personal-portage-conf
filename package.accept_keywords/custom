@@ -92,3 +92,4 @@ net-vpn/tinc ~*
 
 net-vpn/tailscale ~*
 
+x11-terms/wezterm ~*
